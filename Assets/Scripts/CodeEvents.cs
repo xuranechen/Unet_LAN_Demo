@@ -28,7 +28,7 @@ public class CodeEvents : MonoBehaviour
 
     public void ReceiveMessage(string code)
     {
-        if (code == "画面描述")
+        if (code == "隐藏物体")
         {
             box.SetActive(false);
         }
